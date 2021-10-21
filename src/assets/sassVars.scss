@@ -1,0 +1,8 @@
+$body-margin-x: 10px;
+$body-width: calc(100% - #{$body-margin-x * 2});
+$navbar-height: 20px;
+$navbar-margin-top: 10px;
+$navbar-margin-bottom: 20px;
+$navbar-total-height: calc(#{$navbar-height} + #{$navbar-margin-top} + #{$navbar-margin-bottom});
+$footer-height: 30px;
+$about-content-height: calc(100% - #{$navbar-total-height});
